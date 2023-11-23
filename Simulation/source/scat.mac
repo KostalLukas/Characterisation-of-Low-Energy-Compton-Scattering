@@ -1,0 +1,418 @@
+#------------------------------------setup-------------------------------------#
+
+# set no of threads for multithreading
+/run/numberOfThreads 8
+
+# initialise run manager
+/run/initialize
+
+# set no of particles per run
+/gun/number 1
+
+# set random momentum vector
+/setup/momRand true
+
+# restrict random momentum vector to front hemisphere
+/setup/momRest true
+
+# set source gamma energy in keV
+/setup/partE 661.657
+
+# set simulation output number
+/output/simNum 1
+
+# set shielding block
+/setup/shield true
+
+# set scattering target
+/setup/targ true
+
+#------------------------------------sim000------------------------------------#
+
+# set scattering angle
+/output/simAng 0
+/setup/scatAng 0
+
+# set shielding angle and distance
+/setup/shieldAng 90
+/setup/shieldDist 10.2
+
+# revoxilize to close geometry after changing angle
+/run/geometryModified
+
+# reinitialize geometry after changing angle
+/run/reinitializeGeometry
+
+# simulate 2E8 runs
+/run/printProgress 10000000
+/run/beamOn 200000000
+
+# resent analysis manager
+/analysis/reset
+
+# close root setup file
+/analysis/closeFile
+
+#------------------------------------sim010------------------------------------#
+
+# set scattering angle
+/output/simAng 10
+/setup/scatAng 10
+
+# set shielding angle and distance
+/setup/shieldAng 95
+/setup/shieldDist 12.5
+
+# revoxilize to close geometry after changing angle
+/run/geometryModified
+
+# reinitialize geometry after changing angle
+/run/reinitializeGeometry
+
+# simulate 2E8 runs
+/run/printProgress 10000000
+/run/beamOn 200000000
+
+# resent analysis manager
+/analysis/reset
+
+# close root output file
+/analysis/closeFile
+
+#------------------------------------sim020------------------------------------#
+
+# set scattering angle
+/output/simAng 20
+/setup/scatAng 20
+
+# set shielding angle and distance
+/setup/shieldAng 100
+/setup/shieldDist 15
+
+# revoxilize to close geometry after changing angle
+/run/geometryModified
+
+# reinitialize geometry after changing angle
+/run/reinitializeGeometry
+
+# simulate 2E8 runs
+/run/printProgress 10000000
+/run/beamOn 200000000
+
+# resent analysis manager
+/analysis/reset
+
+# close root output file
+/analysis/closeFile
+
+#------------------------------------sim030------------------------------------#
+
+# set scattering angle
+/output/simAng 30
+/setup/scatAng 30
+
+# set shielding angle and distance
+/setup/shieldAng 105
+/setup/shieldDist 18
+
+# revoxilize to close geometry after changing angle
+/run/geometryModified
+
+# reinitialize geometry after changing angle
+/run/reinitializeGeometry
+
+# simulate 2E8 runs
+/run/printProgress 10000000
+/run/beamOn 200000000
+
+# resent analysis manager
+/analysis/reset
+
+# close root output file
+/analysis/closeFile
+
+#------------------------------------sim040------------------------------------#
+
+# set scattering angle
+/output/simAng 40
+/setup/scatAng 40
+
+# set shielding angle and distance
+/setup/shieldAng 110
+/setup/shieldDist 25
+
+# revoxilize to close geometry after changing angle
+/run/geometryModified
+
+# reinitialize geometry after changing angle
+/run/reinitializeGeometry
+
+# simulate 2E8 runs
+/run/printProgress 10000000
+/run/beamOn 200000000
+
+# resent analysis manager
+/analysis/reset
+
+# close root output file
+/analysis/closeFile
+
+#------------------------------------sim050------------------------------------#
+
+# set scattering angle
+/output/simAng 50
+/setup/scatAng 50
+
+# set shielding angle and distance
+/setup/shieldAng 115
+/setup/shieldDist 30
+
+# revoxilize to close geometry after changing angle
+/run/geometryModified
+
+# reinitialize geometry after changing angle
+/run/reinitializeGeometry
+
+# simulate 2E8 runs
+/run/printProgress 10000000
+/run/beamOn 200000000
+
+# resent analysis manager
+/analysis/reset
+
+# close root output file
+/analysis/closeFile
+
+#------------------------------------sim060------------------------------------#
+
+# set scattering angle
+/output/simAng 60
+/setup/scatAng 60
+
+# set shielding angle and distance
+/setup/shieldAng 120
+/setup/shieldDist 34
+
+# revoxilize to close geometry after changing angle
+/run/geometryModified
+
+# reinitialize geometry after changing angle
+/run/reinitializeGeometry
+
+# simulate 2E8 runs
+/run/printProgress 10000000
+/run/beamOn 200000000
+
+# resent analysis manager
+/analysis/reset
+
+# close root output file
+/analysis/closeFile
+
+#------------------------------------sim070------------------------------------#
+
+# set scattering angle
+/output/simAng 70
+/setup/scatAng 70
+
+# set shielding angle and distance
+/setup/shieldAng 125
+/setup/shieldDist 40
+
+# revoxilize to close geometry after changing angle
+/run/geometryModified
+
+# reinitialize geometry after changing angle
+/run/reinitializeGeometry
+
+# simulate 2E8 runs
+/run/printProgress 10000000
+/run/beamOn 200000000
+
+# resent analysis manager
+/analysis/reset
+
+# close root output file
+/analysis/closeFile
+
+#------------------------------------sim080------------------------------------#
+
+# set scattering angle
+/output/simAng 80
+/setup/scatAng 80
+
+# set shielding angle and distance
+/setup/shieldAng 130
+/setup/shieldDist 45
+
+# revoxilize to close geometry after changing angle
+/run/geometryModified
+
+# reinitialize geometry after changing angle
+/run/reinitializeGeometry
+
+# simulate 2E8 runs
+/run/printProgress 10000000
+/run/beamOn 200000000
+
+# resent analysis manager
+/analysis/reset
+
+# close root output file
+/analysis/closeFile
+
+#------------------------------------sim090------------------------------------#
+
+# set scattering angle
+/output/simAng 90
+/setup/scatAng 90
+
+# set shielding angle and distance
+/setup/shieldAng 135
+/setup/shieldDist 52
+
+# revoxilize to close geometry after changing angle
+/run/geometryModified
+
+# reinitialize geometry after changing angle
+/run/reinitializeGeometry
+
+# simulate 2E8 runs
+/run/printProgress 10000000
+/run/beamOn 200000000
+
+# resent analysis manager
+/analysis/reset
+
+# close root output file
+/analysis/closeFile
+
+#------------------------------------sim100------------------------------------#
+
+# set scattering angle
+/output/simAng 100
+/setup/scatAng 100
+
+# set shielding angle and distance
+/setup/shieldAng 140
+/setup/shieldDist 60
+
+# revoxilize to close geometry after changing angle
+/run/geometryModified
+
+# reinitialize geometry after changing angle
+/run/reinitializeGeometry
+
+# simulate 2E8 runs
+/run/printProgress 10000000
+/run/beamOn 200000000
+
+# resent analysis manager
+/analysis/reset
+
+# close root output file
+/analysis/closeFile
+
+#------------------------------------sim110------------------------------------#
+
+# set scattering angle
+/output/simAng 110
+/setup/scatAng 110
+
+# set shielding angle and distance
+/setup/shieldAng 145
+/setup/shieldDist 72
+
+# revoxilize to close geometry after changing angle
+/run/geometryModified
+
+# reinitialize geometry after changing angle
+/run/reinitializeGeometry
+
+# simulate 2E8 runs
+/run/printProgress 10000000
+/run/beamOn 200000000
+
+# resent analysis manager
+/analysis/reset
+
+# close root output file
+/analysis/closeFile
+
+#------------------------------------sim120------------------------------------#
+
+# set scattering angle
+/output/simAng 120
+/setup/scatAng 120
+
+# set shielding angle and distance
+/setup/shieldAng 150
+/setup/shieldDist 85
+
+# revoxilize to close geometry after changing angle
+/run/geometryModified
+
+# reinitialize geometry after changing angle
+/run/reinitializeGeometry
+
+# simulate 2E8 runs
+/run/printProgress 10000000
+/run/beamOn 200000000
+
+# resent analysis manager
+/analysis/reset
+
+# close root output file
+/analysis/closeFile
+
+#------------------------------------sim130------------------------------------#
+
+# set scattering angle
+/output/simAng 130
+/setup/scatAng 130
+
+# set shielding angle and distance
+/setup/shieldAng 155
+/setup/shieldDist 100
+
+# revoxilize to close geometry after changing angle
+/run/geometryModified
+
+# reinitialize geometry after changing angle
+/run/reinitializeGeometry
+
+# simulate 2E8 runs
+/run/printProgress 10000000
+/run/beamOn 200000000
+
+# resent analysis manager
+/analysis/reset
+
+# close root output file
+/analysis/closeFile
+
+#------------------------------------sim140------------------------------------#
+
+# set scattering angle
+/output/simAng 140
+/setup/scatAng 140
+
+# set shielding angle and distance
+/setup/shieldAng 160
+/setup/shieldDist 120
+
+# revoxilize to close geometry after changing angle
+/run/geometryModified
+
+# reinitialize geometry after changing angle
+/run/reinitializeGeometry
+
+# simulate 2E8 runs
+/run/printProgress 10000000
+/run/beamOn 200000000
+
+# resent analysis manager
+/analysis/reset
+
+# close root output file
+/analysis/closeFile
