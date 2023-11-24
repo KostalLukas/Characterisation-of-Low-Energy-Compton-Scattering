@@ -1,0 +1,15 @@
+isotope, energy (keV), uncertainty (keV)
+Co60, 1332.492, 0.004
+Co60, 1173.228, 0.003
+Na22, 1274.537, 0.003
+Na22, 511.000, 0.001      # annihilation
+Mn54, 834.838, 0.005
+Cs137, 661.657, 0.003
+Co57, 122.0607, 0.0001
+Ba133, 356.0129, 0.0007
+Ba133, 80.9979, 0.0011    # doublet also 79.6142
+Ba133, 30.973, 0.001      # Cs Ka1 and Ka2 lines
+Am241, 59.5409, 0.0001
+Cd109, 21.9906, 0.0002    # Ag Ka1 and Ka2 lines
+
+# reference gamma energies from IAEA Volume 1 database
