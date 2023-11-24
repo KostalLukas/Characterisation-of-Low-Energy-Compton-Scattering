@@ -252,7 +252,7 @@ plt.rc('grid', linestyle=':', color='black', alpha=0.8)
 plt.grid()
 
 plt.errorbar(E, N, yerr=Nerr, fmt='.', c='blue', label='data')
-plt.plot(E_plt, gauss(E_plt, *popt), c='darkorange', label='fit', zorder=np.inf)
+plt.plot(E_plt, gauss(E_plt, *popt), c='orangered', label='fit', zorder=np.inf)
 
 plt.legend(loc=(0.3, 1.02), ncol=2)
 
