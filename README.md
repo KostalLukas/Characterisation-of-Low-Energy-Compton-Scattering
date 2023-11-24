@@ -18,19 +18,19 @@ All work in this repository is to be cited using the provided Citation.bib BibTe
    ```
 3. create a build directory and cd into it
 4. run CMake with the following command
-   ```bash
+   ```shell
    cmake ../source
    ```
 6. build the simulation with the make command where `-j` specifies the number of thread to use
-   ```bash
+   ```shell
    make -j4
    ```
 8. run the simulation in visualisation mode with the preset geometry
-   ```bash
+   ```shell
    ./scat
    ```
 10. now run the simulation in batch mode using the `scat.mac` macro file
-   ```bash
+   ```shell
    ./scar scat.mac
    ```
 
