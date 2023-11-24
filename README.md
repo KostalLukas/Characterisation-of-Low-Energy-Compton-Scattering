@@ -13,18 +13,26 @@ All work in this repository is to be cited using the provided Citation.bib BibTe
 ### Simulation
 #### The following steps are required to run the GEANT4 simulation:
 1. change the CMake prefix path to the path of your GEANT4 installation in the `Simulation/source/CmakeLists.txt` file
-   ```zsh:
+   ```cmake:
    list(APPEND CMAKE_PREFIX_PATH "/usr/local/Geant4/geant4-v11.1.3-install/lib/cmake/Geant4")
    ```
 3. create a build directory and cd into it
 4. run CMake with the following command
-   ``cmake ../source``
-5. build the simulation with the make command where `-j` specifies the number of thread to use
-   ``make -j4``
-6. run the simulation in visualisation mode with the preset geometry
-   ``./scat``
-7. now run the simulation in batch mode using the `scat.mac` macro file
-   ``./scar scat.mac``
+   ```zsh:
+   cmake ../source
+   ```
+6. build the simulation with the make command where `-j` specifies the number of thread to use
+   ```zsh:
+   make -j4
+   ```
+8. run the simulation in visualisation mode with the preset geometry
+   ```zsh:
+   ./scat
+   ```
+10. now run the simulation in batch mode using the `scat.mac` macro file
+   ```zsh:
+   ./scar scat.mac
+   ```
 
 #### The following messenger commands can be used to control the simulation
 * `/setup/targ <bool>` set to construct construct the scattering target
