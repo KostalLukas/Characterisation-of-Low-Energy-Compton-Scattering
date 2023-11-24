@@ -1,6 +1,6 @@
 # Characterisation of low-energy Compton Scattering
 ## Repository for the Characterisation of low-energy Compton Scattering laboratory report
-All work in this repository is to be cited using the provided Citation.bib BibTeX citation
+All work in this repository is to be cited using the provided [Citation.bib](https://github.com/KostalLukas/Characterisation-of-Low-Energy-Compton-Scattering/blob/main/Citation.bib) BibTeX citation
 
 ### Analysis
 #### The following analysis scripts are available in the Analysis subdirectory:
