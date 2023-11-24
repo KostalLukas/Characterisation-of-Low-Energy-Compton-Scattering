@@ -16,6 +16,6 @@ All work in this repository is to be cited using the Citation.bib BibTex citatio
 * GEANT4
 * QT5
 * CMake
-* [UpRoot] (https://uproot.readthedocs.io/en/latest/)
+* [UpRoot](https://uproot.readthedocs.io/en/latest/)
 
 Lukas Kostal, 24.11.2023, ICL
