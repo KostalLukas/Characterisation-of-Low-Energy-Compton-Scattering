@@ -1,5 +1,5 @@
-# Characterisation-of-Low-Energy-Compton-Scattering
-## Repository for the Characterisation of Low-Energy Compton Scattering laboratory report
+# Characterisation of low-energy Compton Scattering
+## Repository for the Characterisation of low-energy Compton Scattering laboratory report
 All work in this repository is to be cited using the Citation.bib BibTex citation file
 
 ### Analysis
