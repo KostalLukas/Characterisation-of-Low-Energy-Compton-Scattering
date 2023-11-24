@@ -13,24 +13,24 @@ All work in this repository is to be cited using the provided Citation.bib BibTe
 ### Simulation
 #### The following steps are required to run the GEANT4 simulation:
 1. change the CMake prefix path to the path of your GEANT4 installation in the `Simulation/source/CmakeLists.txt` file
-   ```cmake:
+   ```cmake
    list(APPEND CMAKE_PREFIX_PATH "/usr/local/Geant4/geant4-v11.1.3-install/lib/cmake/Geant4")
    ```
 3. create a build directory and cd into it
 4. run CMake with the following command
-   ```zsh:
+   ```bash
    cmake ../source
    ```
 6. build the simulation with the make command where `-j` specifies the number of thread to use
-   ```zsh:
+   ```bash
    make -j4
    ```
 8. run the simulation in visualisation mode with the preset geometry
-   ```zsh:
+   ```bash
    ./scat
    ```
 10. now run the simulation in batch mode using the `scat.mac` macro file
-   ```zsh:
+   ```bash
    ./scar scat.mac
    ```
 
