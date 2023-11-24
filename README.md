@@ -18,21 +18,21 @@ All work in this repository is to be cited using the provided Citation.bib BibTe
    ```
 3. create a build directory and cd into it
 4. run CMake with the following command
-   ```shell
+   ```console
    cmake ../source
    ```
 6. build the simulation with the make command where `-j` specifies the number of thread to use
-   ```shell
+   ```console
    make -j4
    ```
 8. run the simulation in visualisation mode with the preset geometry
-   ```shell
+   ```console
    ./scat
    ```
 10. now run the simulation in batch mode using the `scat.mac` macro file
-   ```shell
-   ./scar scat.mac
-   ```
+    ```console
+    ./scat scat.mac
+    ```
 
 #### The following messenger commands can be used to control the simulation
 * `/setup/targ <bool>` set to construct construct the scattering target
