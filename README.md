@@ -13,8 +13,8 @@ The following analysis scripts are available in the Analysis subdirectory:
 ### Simulation
 The following steps are required to run the GEANT4 simulation:
 
-### Dependancies
-The following dependancies are required to run the complete simulation and analysis:
+### Dependencies
+The following dependencies are required to run the complete simulation and analysis:
 * [GEANT4](https://geant4.web.cern.ch)
 * [Qt5](https://doc.qt.io/qt.html#qt5)
 * [CMake](https://cmake.org)
